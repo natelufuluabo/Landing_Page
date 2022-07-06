@@ -206,3 +206,14 @@ body {
     letter-spacing: 0.1rem;
     cursor: pointer;
 }
+
+/* Footer Styling */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+    font-size: 1.4rem;
+    padding: 3rem 0;
+    background-color: #1f2937;
+}
