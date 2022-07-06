@@ -17,7 +17,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 12rem;
+    padding: 0 20rem;
     background-color: #1f2937;
     height: 65vh;
 }
@@ -53,7 +53,7 @@ body {
 }
 
 .main-hero-text {
-    font-size: 5.4rem;
+    font-size: 4.2rem;
     font-weight: bold;
     color: #f9faf8;
     margin-bottom: 1rem;
@@ -68,7 +68,7 @@ body {
 .hero-button {
     border: none;
     border-radius: 1rem;
-    padding: 1.5rem 3.5rem;
+    padding: 1rem 3.5rem;
     background-color: #3882f6;
     color: #f9faf8;
     font-size: 1.6rem;
@@ -156,4 +156,53 @@ body {
     font-size: 1.2rem;
     font-weight: bold;
     align-self: flex-end;
+}
+
+/* Call To Action Section Styling */
+.call-to-action-section {
+    display: flex;
+    align-items: center;
+    padding: 7rem 20rem;
+    width: 100%;
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 5rem 20rem;
+    background-color: #3882f6;
+    border-radius: 1.5rem;
+    width: 100%;
+}
+
+.left-content-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.75rem;
+}
+
+.main-call-to-action-text {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.secondary-call-to-action-text {
+    font-size: 1.2rem;
+    color: #e5e7eb;
+}
+
+.call-to-action-button {
+    border: 0.1rem solid #f9faf8;
+    border-radius: 1rem;
+    padding: 1rem 4.5rem;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 1.6rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
 }
