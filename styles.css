@@ -132,3 +132,28 @@ body {
     font-size: 1.2rem;
     color: #999999;
 }
+
+/* Testimonial Section Styling */
+.testimonial-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    background-color: #999999;
+    padding: 10rem 40rem;
+}
+
+.textimonial-text {
+    font-size: 3.2rem;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    text-align: justify;
+}
+
+.testimonial-author {
+    font-size: 1.2rem;
+    font-weight: bold;
+    align-self: flex-end;
+}
